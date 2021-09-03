@@ -10,12 +10,21 @@
 
 
 
-## TITLE
+## Serpientes y Escaleras
 
-**Instrucciones:** INSTRUCTIONS
+**Instrucciones:** Simular la ejecución del juego de serpientes y escaleras en un tablero de 100 casillas, con dos jugadores, distribuir a su consideración entre 8 y 10 serpientes y entre 8 y 10 escaleras dentro del tablero.
 
-![imagen adjuntada por el profesor](https://raw.githubusercontent.com/Diego-Gentner-Estructura-de-Datos-2021/01-Coladera-de-Eratostenes/3d18a916f4586c3030fe3eae2982175ec36e9851/img/img-01.jpg)
+Considerar el modo de juego simple que es donde un jugador con llegar o pasar de 100 gana (no deberá regresar las casillas extras al 100). 
+
+- Utilizar clases para los elementos que se requieren para el juego.
+- Subir enlace de GIT.
 
 
 
-> Las Instrucciones y tareas generadas en esta organización pertenecen al maestro en cuestión. El código a resolver es perteneciente al alumno y se encuentra dentro de la carpeta "src" del repositorio actual.
+![imagen adjuntada por el profesor](https://st4.depositphotos.com/8027140/29455/v/600/depositphotos_294550628-stock-illustration-vector-illustration-of-puzzle-game.jpg)
+
+
+
+> Las Instrucciones y tareas generadas en esta organización pertenecen al maestro en cuestión. El código a resolver es perteneciente al alumno y se encuentra dentro de la carpeta "src" del repositorio actual. La imagen pertenece a
+>
+> [Depositphotos]: https://mx.depositphotos.com/vector-images/serpientes-y-escaleras.html	"Depositphotos"
