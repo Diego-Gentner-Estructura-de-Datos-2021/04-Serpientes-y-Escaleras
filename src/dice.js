@@ -1,6 +1,6 @@
 export default class Dice {
 
-    pushDice() {
+    lanzar() {
         return Math.floor(Math.random() * 6) + 1;
     }
     
