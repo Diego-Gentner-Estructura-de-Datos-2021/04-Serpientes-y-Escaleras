@@ -1,4 +1,4 @@
-export default class Player {
+export default class Players {
 
     constructor(playerA, playerB) {
         this._playerA = playerA;
