@@ -25,6 +25,4 @@ Considerar el modo de juego simple que es donde un jugador con llegar o pasar de
 
 
 
-> Las Instrucciones y tareas generadas en esta organización pertenecen al maestro en cuestión. El código a resolver es perteneciente al alumno y se encuentra dentro de la carpeta "src" del repositorio actual. La imagen pertenece a
->
-> [Depositphotos]: https://mx.depositphotos.com/vector-images/serpientes-y-escaleras.html	"Depositphotos"
+> Las Instrucciones y tareas generadas en esta organización pertenecen al maestro en cuestión. El código a resolver es perteneciente al alumno y se encuentra dentro de la carpeta "src" del repositorio actual. La imagen pertenece a Depositphotos.
