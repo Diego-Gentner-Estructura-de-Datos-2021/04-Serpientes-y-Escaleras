@@ -23,14 +23,6 @@ export default class Players {
         return this._playerBPos;
     }
 
-    setPlayerAPos(pos) {
-        this._playerAPos = pos;
-    }
-
-    setPlayerBPos(pos) {
-        this._playerBPos = pos;
-    }
-
     movePlayerA(pos) {
         this._playerAPos += pos;
     }
