@@ -3,8 +3,8 @@ export default class Player {
     constructor(playerA, playerB) {
         this._playerA = playerA;
         this._playerB = playerB;
-        this._playerAInitPos = 0;
-        this._playerBInitPos = 0;
+        this._playerAPos = 0;
+        this._playerBPos = 0;
     }
 
     getPlayerA() {
@@ -15,20 +15,28 @@ export default class Player {
         return this._playerB;
     }
 
-    getPlayerAInitPos() {
-        return this._playerAInitPos;
+    getPlayerAPos() {
+        return this._playerAPos;
     }
 
-    getPlayerBInitPos() {
-        return this._playerBInitPos;
+    getPlayerBPos() {
+        return this._playerBPos;
     }
 
-    setPlayerAInitPos(pos) {
-        this._playerAInitPos = pos;
+    setPlayerAPos(pos) {
+        this._playerAPos = pos;
     }
 
-    setPlayerBInitPos(pos) {
-        this._playerBInitPos = pos;
+    setPlayerBPos(pos) {
+        this._playerBPos = pos;
+    }
+
+    movePlayerA(pos) {
+        this._playerAPos += pos;
+    }
+
+    movePlayerB(pos) {
+        this._playerBPos += pos;
     }
 
 }
