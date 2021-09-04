@@ -1,7 +1,9 @@
 import Game from "./game.js";
 import Player from "./player.js";
 
-let jugadores  = new Player('Carlos', 'Mariana');
-let partida = new Game(jugadores);
+let playerA  = new Player('Mariana');
+let playerB  = new Player('Carlos');
+let partida = new Game(playerA, playerB);
 
 console.log(partida._tablero);
+console.log(partida.runGame());

@@ -1,7 +1,7 @@
 export default class Player {
 
     constructor(player) {
-        this._player = playerA;
+        this._player = player;
         this._playerPos = 0;
     }
 
@@ -10,11 +10,11 @@ export default class Player {
     }
 
     getPosition() {
-        return this._playerAPos;
+        return this._playerPos;
     }
 
     movePlayer(pos) {
-        this._playerAPos += pos;
+        this._playerPos += pos;
     }
 
 }

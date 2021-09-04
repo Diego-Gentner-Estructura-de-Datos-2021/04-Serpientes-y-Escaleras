@@ -2,9 +2,10 @@ import Dice from './dice.js'
 
 export default class Game {
 
-    constructor(players) {
+    constructor(playerA, playerB) {
+        this._playerA = playerA;
+        this._playerB = playerB;
         this._dado = new Dice();
-        this._players = players;
         this._tablero = this._generarTablero()
     }
 
@@ -22,14 +23,19 @@ export default class Game {
     }
 
     runGame() {
-        while (this._players.getPlayerAPos() < 100 && this._players.getPlayerBPos() < 100) {
+        while (this._playerA.getPosition() < 100 && this._playerB.getPosition() < 100) {
             
-            this._players.movePlayerA(this._dado.lanzar());
-            this._checkCasilla(this.players.getPlayerAPos, 0);
-            this._players.movePlayerB(this._dado.lanzar());
-            this._checkCasilla(this.players.getPlayerBPos, 1);
+            console.log('')
+            this._playerA.movePlayer(this._dado.lanzar());
+            // this._checkCasilla(this.players.getPlayerPos, 0);
+            this._playerB.movePlayer(this._dado.lanzar());
+            // this._checkCasilla(this.players.getPlayerPos, 1);
+
+            console.log(this._playerA.getPosition());
+            console.log(this._playerB.getPosition());
 
         }
+        return 'a';
     }
 
     _checkCasilla(value) {
