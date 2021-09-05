@@ -14,11 +14,21 @@ export default class Player {
     }
 
     movePlayer(pos) {
-        return this._playerPos += pos;
+        this._playerPos += pos;
+        this.notOver100();
+        return this._playerPos;
     }
 
     setPosition(pos) {
-        return this._playerPos = pos;
+        this._playerPos = pos;
+        return this._playerPos;
+    }
+
+    notOver100() {
+        if (this._playerPos > 100) {
+            this._playerPos = 100;
+        }
+        return;
     }
 
 }
